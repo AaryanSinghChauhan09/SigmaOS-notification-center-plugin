@@ -1,15 +1,11 @@
 # SigmaOS-notification-center-plugin
 
-Part of the SigmaOS multi-repository architecture.
+Notification centre plugin (history, do-not-disturb)
 
-## Principles
-- MODULARITY: Single responsibility per repository
-- LOOSE COUPLING: Minimal dependencies between repos
-- INTERFACE SEGREGATION: Clear, focused public APIs
-- DETERMINISTIC TESTING: Comprehensive test coverage
+Engine: notify
+Language: shell
+Visibility: public
 
-## License
-SPDX-License-Identifier: GPL-3.0-or-later
+## SigmaOS multi-repository ecosystem
 
-## Copyright
-Copyright (C) 2026 SigmaOS Project
+- **Upstream inspirations**: - https://github.com/omacom/omarchy-notification-center-plugin
