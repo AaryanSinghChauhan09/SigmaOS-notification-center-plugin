@@ -1,0 +1,6 @@
+[component]
+name = "SigmaOS-notification-center-plugin"
+tier = 3
+description = "Notification center panel widget and history drawer plugin inspired by Omarchy"
+contracts = ['notification-center-plugin', 'history-drawer', 'dnd-toggle']
+upstream_inspirations = ['https://github.com/omacom/omarchy-notification-center-plugin']
