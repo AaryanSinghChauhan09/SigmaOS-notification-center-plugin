@@ -1,6 +1,17 @@
 [component]
 name = "SigmaOS-notification-center-plugin"
 tier = 3
+stability = "beta"
+language = "rust"
 description = "Notification centre plugin (history, do-not-disturb)"
 contracts = ['notification-center-plugin', 'history-drawer', 'dnd-toggle']
 upstream_inspirations = ['https://github.com/omacom/omarchy-notification-center-plugin']
+
+[contract]
+provides = ["notification-center-plugin", "history-drawer", "dnd-toggle"]
+depends_on = []
+
+[maturity]
+status = "Implemented"
+test_evidence = "Compiles and passes AAA unit tests"
+next_milestone = "Hardware and runtime integration"
